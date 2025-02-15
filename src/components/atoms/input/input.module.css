@@ -1,0 +1,3 @@
+.container {
+    @apply  w-full p-3 bg-backgroundColor text-textGrayColor border  rounded-lg shadow-md text-xs focus:outline-none border-textGrayColor focus:border-2 focus:ring-activeColor focus:border-textGrayColor
+}

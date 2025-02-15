@@ -1,0 +1,93 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom scrollbar styles */
+::-webkit-scrollbar {
+  @apply h-[10px] w-[0px] py-10;
+}
+
+::-webkit-scrollbar-thumb {
+  @apply bg-popupBackgroundColor rounded-full;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-activeColor;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+:root {
+  --text-color: "#000";
+  --textGray-color: "#575757";
+  --background-color: "#ebebeb";
+  --popupbackground-color: "#fff";
+  --active-color: "#ffac30";
+  --success-color: "#16a34a";
+  --warnning-color: "#8000C8";
+  --danger-color: "#C8001A";
+}
+
+[data-theme="dark"] {
+  --text-color: "#fff";
+  --textGray-color: "#a0a0a0";
+  --background-color: "#1e1e1e";
+  --popupbackground-color: "#121212";
+  --active-color: "#ffac30";
+  --success-color: "#16a34a";
+  --warnning-color: "#8000C8";
+  --danger-color: "#C8001A";
+}
+
+body {
+  min-height: 100vh;
+  background-color: #fff;
+}
+
+.loading_text {
+  color: "#575757";
+}
+
+.loading{
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+@media (prefers-color-scheme: dark) {
+   body {
+     min-height: 100vh;
+      background-color: #121212;
+  }
+  .loading_text {
+     color: "#a0a0a0";
+  }
+}
+
+/* * {
+  @apply transition-all duration-500 ease-linear;
+} */
+
+.left_card {
+  @apply w-[380px] h-full justify-center items-center fixed block max-xl:hidden z-50;
+}
+
+.right_card {
+  @apply sm:w-[100px]  h-full justify-center items-center fixed sm:block hidden right-0;
+}
+
+.top_card {
+  @apply w-full h-auto justify-center items-center hidden  max-xl:block;
+}
+
+.second-h-content {
+    height: calc(100vh - 4rem - 32px);
+}
+
+.column-h-content {
+  height: calc(70vh);
+}
