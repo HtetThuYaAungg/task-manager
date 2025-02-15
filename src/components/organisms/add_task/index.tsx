@@ -32,7 +32,6 @@ const AddTask = ({ showPopup, setShowPopup, task }: Props) => {
 
         if (task) {
             dispatch(updateTask({ ...task, title, description }));
-            handleClose();
         } else {
             dispatch(addTask({
                 title,
@@ -43,6 +42,7 @@ const AddTask = ({ showPopup, setShowPopup, task }: Props) => {
         }
         setTitle('');
         setDescription('');
+        handleClose();
     };
 
     const handleTitleChange = (e: React.ChangeEvent<HTMLInputElement>) => {

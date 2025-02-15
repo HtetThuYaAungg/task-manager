@@ -27,7 +27,7 @@
   --active-color: "#ffac30";
   --success-color: "#16a34a";
   --warnning-color: "#8000C8";
-  --danger-color: "#C8001A";
+  --danger-color: "#F5222D";
 }
 
 [data-theme="dark"] {
@@ -38,7 +38,7 @@
   --active-color: "#ffac30";
   --success-color: "#16a34a";
   --warnning-color: "#8000C8";
-  --danger-color: "#C8001A";
+  --danger-color: "#F5222D";
 }
 
 body {

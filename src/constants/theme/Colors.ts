@@ -1,7 +1,7 @@
 const commonColor = {
   success: '#16a34a',
   warnning: '#8000C8',
-  danger: '#C8001A',
+  danger: '#F5222D',
 };
 
 const light = {
