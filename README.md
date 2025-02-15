@@ -30,6 +30,9 @@ A simple Kanban-style task management application built with Next.js and TypeScr
 <img src="/public/images/mobile-view.png" width="250px" height="500px" alt="Mobile View">
 </div>
 
+## Live Demo
+[![Open Demo](https://img.shields.io/badge/TRY_IT-HERE-blue?style=for-the-badge)](https://task-manager-six-ecru.vercel.app)
+
 
 ## Tech Stack
 
