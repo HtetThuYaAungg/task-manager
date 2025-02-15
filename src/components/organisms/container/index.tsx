@@ -7,7 +7,6 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";
 import Breadcrumb from "../bread_crumb";
-import Icon, { IconState } from "@/components/atoms/icon";
 import AddTask from "../add_task";
 
 
