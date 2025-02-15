@@ -1,7 +1,7 @@
 # Task Management App (Mini Kanban Board)
 
 
-A simple Kanban-style task management application built with Next.js and TypeScript. Manage tasks across three stages (To Do, In Progress, Done) with drag & drop functionality and Firebase persistence.
+A simple Kanban-style task management application built with Next.js and TypeScript. Manage tasks across three stages (To Do, In Progress, Done) with drag & drop functionality and indexDB persistence.
 
 ## Features
 
@@ -27,7 +27,7 @@ A simple Kanban-style task management application built with Next.js and TypeScr
 <div>
   <img src="/public/images/home-screen.png" width="45%" alt="Home Screen">
   <img src="/public/images/setting-screen.png" width="45%" alt="Setting Screen">
-<img src="/public/images/mobile-view.png" width="45%" alt="Mobile View">
+<img src="/public/images/mobile-view.png" width="30%" height="400px" alt="Mobile View">
 </div>
 
 
